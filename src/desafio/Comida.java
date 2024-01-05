@@ -1,6 +1,6 @@
 package desafio;
 
-public class Comida{
+public class Comida {
 
     String nome;
     double peso;
