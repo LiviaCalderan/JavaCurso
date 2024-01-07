@@ -1,0 +1,23 @@
+Collections  
+
+Set
+ - não ordenado
+ - nao indexado
+ - Não aceita repetição
+
+List ( + parecido com o array)
+ - Indexada
+ - Aceita repetição
+
+Map
+ - chave/valor
+ - chave não aceita repetição
+ - valor aceita repetição
+
+Queue
+ - implementa fila
+ - First in/First out (FIFO)
+
+Stack
+ - Implementa pilha
+ - Last in/ First out (LIFO)
