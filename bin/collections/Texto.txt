@@ -1,6 +1,6 @@
 Collections  
 
-Set
+Set -> HashSet
  - não ordenado
  - nao indexado
  - Não aceita repetição
