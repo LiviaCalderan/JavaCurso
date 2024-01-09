@@ -22,7 +22,7 @@ public class Lista {
         System.out.println(">>>>>" + lista.remove(2));
         lista.remove(new Usuario("João"));
 
-        System.out.println(lista.contains(new Usuario("Ana")));
+        System.out.println(lista.contains(new Usuario("Ana"))); //me retorna true or false
 
         for(Usuario u: lista) {
             System.out.println(u);
