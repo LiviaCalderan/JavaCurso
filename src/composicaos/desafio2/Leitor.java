@@ -5,9 +5,9 @@ import java.util.List;
 
 public class Leitor {
 
-    String nome;
+    final String nome;
 
-    List <PedidoLivro> pedidos = new ArrayList<>();
+    final List <PedidoLivro> pedidos = new ArrayList<>();
 
     Leitor(String nome){
         this.nome = nome;

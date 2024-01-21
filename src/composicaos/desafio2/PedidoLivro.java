@@ -5,7 +5,7 @@ import java.util.List;
 
 public class PedidoLivro {
 
-    List <ItemDoPedido> item = new ArrayList<>();
+    final List <ItemDoPedido> item = new ArrayList<>();
 
     void addItemDoPedido(String nome, double preco, int qtd){
         var livro = new Livro(nome, preco);
