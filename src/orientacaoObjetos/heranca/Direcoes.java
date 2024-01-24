@@ -1,0 +1,6 @@
+package orientacaoObjetos.heranca;
+
+public enum Direcoes {
+    
+    NORTE, LESTE, SUL, OESTE;
+}
