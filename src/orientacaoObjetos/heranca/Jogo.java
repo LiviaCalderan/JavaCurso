@@ -20,7 +20,7 @@ public class Jogo {
         Monstro.atacar(heroi);
         heroi.atacar(Monstro);
 
-        Monstro.andar(Direcoes.NORTE);
+        Monstro.andar(Direcoes.NORTE); //ataques nao acontecerão pois não estão lado a lado
         Monstro.atacar(heroi);
         heroi.atacar(Monstro);
 
