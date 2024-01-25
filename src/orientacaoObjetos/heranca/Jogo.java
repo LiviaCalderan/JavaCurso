@@ -3,22 +3,28 @@ package orientacaoObjetos.heranca;
 public class Jogo {
     public static void main(String[] args) {
         
-        Jogador j1 = new Jogador();
-        j1.x = 10;
-        j1.y = 10;
+        Monstro Monstro = new Monstro();
+        Monstro.x = 10;
+        Monstro.y = 10;
         
-        Jogador j2 = new Jogador();
-        j2.x = 11;
-        j2.y = 10;
+        Heroi heroi = new Heroi();
+        heroi.x = 11;
+        heroi.y = 10;
 
-        System.out.println(j1.vida);
-        System.out.println(j2.vida);
+        System.out.println( "Monstro tem = " + Monstro.vida + " pontos de vida");
+        System.out.println( "Monstro tem = " + heroi.vida + " pontos de vida");
 
-        j1.atacar(j2);
-        j2.atacar(j1);
-        j1.atacar(j2);
+        Monstro.atacar(heroi);
+        heroi.atacar(Monstro);
 
-        System.out.println(j1.vida);
-        System.out.println(j2.vida);
+        Monstro.atacar(heroi);
+        heroi.atacar(Monstro);
+
+        Monstro.andar(Direcoes.NORTE);
+        Monstro.atacar(heroi);
+        heroi.atacar(Monstro);
+
+        System.out.println( "Monstro tem = " + Monstro.vida + " pontos de vida");
+        System.out.println( "Monstro tem = " + heroi.vida + " pontos de vida");
     }
 }
