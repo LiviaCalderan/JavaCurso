@@ -4,10 +4,6 @@ public class Jogador {
     int x;
     int y; //posições
     int vida = 100;
-
-    Jogador(0, 0){
-        
-    }
     
     Jogador(int x, int y){
         this.x = x;
