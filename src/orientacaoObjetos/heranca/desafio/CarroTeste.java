@@ -12,7 +12,7 @@ public class CarroTeste {
         cA.acelerar();
         System.out.println(cA);
 
-        Ferrari c2 = new Ferrari();
+        Ferrari c2 = new Ferrari(400);
 
         c2.acelerar();
         System.out.println(c2);
