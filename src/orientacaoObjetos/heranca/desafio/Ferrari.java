@@ -2,11 +2,11 @@ package orientacaoObjetos.heranca.desafio;
 
 public class Ferrari extends Carro{
 
-    Ferrari() {
+    public Ferrari() {
         this(315);
     }
 
-    Ferrari(int velocidadeMax) {
+    public Ferrari(int velocidadeMax) {
         super(velocidadeMax);
         delta = 15;
     }

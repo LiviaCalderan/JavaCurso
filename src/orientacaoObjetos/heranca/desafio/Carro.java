@@ -2,15 +2,15 @@ package orientacaoObjetos.heranca.desafio;
 
 public class Carro {
     
-    final int VELOCIDADE_MAXIMA;
-    int velocidadeAtual;
-    int delta = 5;
+    public final int VELOCIDADE_MAXIMA;
+    protected int velocidadeAtual;
+    protected int delta = 5;
 
-    Carro(int velocidadeMax) {
+    protected Carro(int velocidadeMax) {
         VELOCIDADE_MAXIMA = velocidadeMax;
     }
 
-    void acelerar() {
+     public void acelerar() {
         if(velocidadeAtual + delta > VELOCIDADE_MAXIMA) {
             velocidadeAtual = VELOCIDADE_MAXIMA;
         } else {
@@ -19,7 +19,7 @@ public class Carro {
 
     }
 
-    void frear() {
+    public void frear() {
         if (velocidadeAtual >= delta ) {
             velocidadeAtual -= delta;
         } else {
