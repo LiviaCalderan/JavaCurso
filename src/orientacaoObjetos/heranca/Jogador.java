@@ -5,6 +5,14 @@ public class Jogador {
     int y; //posições
     int vida = 100;
 
+    Jogador(0, 0){
+        
+    }
+    
+    Jogador(int x, int y){
+        this.x = x;
+        this.y = y;
+    }
 
     boolean atacar(Jogador oponente) {
         int deltaX = Math.abs(x - oponente.x);
