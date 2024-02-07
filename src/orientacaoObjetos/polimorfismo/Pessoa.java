@@ -4,20 +4,12 @@ public class Pessoa {
     
     private double peso;
 
+    public void comer(Comidas comida) {
+        this.peso += peso;
+    }
+    
     public Pessoa (double peso) {
        setPeso(peso);
-    }
-
-    public void comer(Feijao feijao) {
-        this.peso += feijao.getPeso();
-    }
-
-    public void comer(Sorvete sorvete) {
-        this.peso += sorvete.getPeso();
-    }
-
-    public void comer(Arroz arroz) {
-        this.peso += arroz.getPeso();
     }
 
     public double getPeso() {
