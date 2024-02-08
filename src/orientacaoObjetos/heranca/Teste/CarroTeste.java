@@ -21,6 +21,8 @@ public class CarroTeste {
         c2.ligarAr();
         c2.desligarAr();
 
+        System.out.println("A velocidade do ar esta em: " + c2.VelocidadeDoAr());
+
         c2.acelerar();
         System.out.println(c2);
         c2.acelerar();
