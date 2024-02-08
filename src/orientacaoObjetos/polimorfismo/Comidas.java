@@ -1,6 +1,6 @@
 package orientacaoObjetos.polimorfismo;
 
-public class Comidas {
+public abstract class Comidas {
     
     private double peso;
 
