@@ -11,5 +11,10 @@ public class Produto extends Object { //extends Object é padrao e geralmente fi
         this.preco = preco;
         this.desconto = desconto;
     }
-    
+
+    public String toString() {
+        double precoFinal = preco * (1 - desconto);
+        return nome + "  custa R$ " + precoFinal;
+    }
+
 }
