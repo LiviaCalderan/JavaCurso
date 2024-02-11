@@ -32,4 +32,5 @@ public class Funcao {
         System.out.println(resultadoFinal2);
         System.out.println(parOuImpar.apply(32));    
     }
+    //saida de um metodo tem que ser a entrada do outro;
 }
