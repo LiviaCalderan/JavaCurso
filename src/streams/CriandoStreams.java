@@ -9,7 +9,7 @@ public class CriandoStreams {
     public static void main(String[] args) {
         
         Consumer<String> print = System.out :: print;
-        Consumer<Integer> println = System.out :: print;
+        Consumer<Integer> println = System.out :: println;
 
         Stream<String> language = Stream.of("Java ", "JavaScript ", "Lua\n");
         language.forEach(print);
