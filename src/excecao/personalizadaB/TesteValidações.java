@@ -1,4 +1,4 @@
-package excecao.personalizadaA;
+package excecao.personalizadaB;
 
 import excecao.Aluno;
 
@@ -8,6 +8,7 @@ public class TesteValidações {
         try {
             Aluno aluno = new Aluno("Ana", -7.0);
             Validar.aluno(aluno);
+            
             Validar.aluno(null);
         } catch (StringVaziaException e) {
             System.out.println(e.getMessage());
