@@ -1,4 +1,4 @@
-package Generics;
+package generics;
 
 public class CaixaTeste {
     public static void main(String[] args) {
