@@ -8,7 +8,7 @@ public class TexteConexao {
 
     public static void main(String[] args) throws SQLException {
         
-        final String url = "jdbc:mysql://127.0.0.1:3306";
+        final String url = "jdbc:mysql://127.0.0.1:3306?verifyServerCertificate=false&useSSL=true";
         final String usuario = "root";
         final String senha = "coca1324cola.";
 
